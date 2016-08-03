@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v8',
     center: [-79.801, 43.559],
-    zoom: 12
+    zoom: 10
 });
 // URL for GeoJSON layers from GeoServer
 var floor_plan = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson";
