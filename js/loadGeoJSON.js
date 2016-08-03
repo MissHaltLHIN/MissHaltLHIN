@@ -4,8 +4,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic29uYWxyIiwiYSI6ImI3ZGNmNTI1Mzc1NzFlYTExMGJkZ
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v8',
-    center: [-79.3832, 43.6532],
-    zoom: 20
+    center: [-79.645, 43.600],
+    zoom: 21
 });
 // URL for GeoJSON layers from GeoServer
 var floor_plan = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson";
