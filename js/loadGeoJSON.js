@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic29uYWxyIiwiYSI6ImI3ZGNmNTI1Mzc1NzFlYTExMGJkZ
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v8',
-    center: [-79.645, 43.600],
+    center: [-79.801, 43.559],
     zoom: 12
 });
 // URL for GeoJSON layers from GeoServer
