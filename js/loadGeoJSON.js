@@ -24,10 +24,34 @@ function addLineTypeLayer(data_url,color,id){
             "paint": {
                 "fill-color": color,
                 "fill-outline-color":"#FFFFFF",
-                "fill-opacity": 0.6
+                "fill-opacity": 0.4
             }
         });
+
+    })
+
+    // When a click event occurs near a polygon, open a popup at the location of
+    // the feature, with description HTML from its properties.
+    map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: [id] });
+        if (!features.length) {
+            return;
+        }
+
+        var feature = features[0];
+
+        var popup = new mapboxgl.Popup()
+            .setLngLat(map.unproject(e.point))
+            .setHTML('<b>healthdat_all_field_1:  </b>'+feature.properties.healthdat_all_field_1)
+            .addTo(map);
     });
+
+// Use the same approach as above to indicate that the symbols are clickable
+// by changing the cursor style to 'pointer'.
+    map.on('mousemove', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: [id] });
+        map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+    });;
 }
 // Adds Point type layer to the map, takes in the URL for the dataset, color and an ID string to name the layer
 function addPointTypeLayer(data_url,color,id){
@@ -54,8 +78,3 @@ function addPointTypeLayer(data_url,color,id){
 addLineTypeLayer(nhs_data,'#088','nhs_data');
 //addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
 //addPointTypeLayer(label,'#FF0000','labels');
-//Fit the map bounds to the dataset, currently it is hard-coded
-//map.fitBounds([
- //   [-0.0469537302851677,
-  //      0.097306914627552],
-   // [-0.0092203700914979,0.117602042853832]])
