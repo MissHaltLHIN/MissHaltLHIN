@@ -1,0 +1,388 @@
+{
+  "type": "FeatureCollection",
+  "features": [ {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.72611699999999,
+        43.407971,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Acclaim Health"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.66871549999996,
+        43.4461214,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Art House\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.69422299999998,
+        43.440839,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Big Brothers Big Sisters of Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79306400000002,
+        43.233691,
+        0
+      ]
+    },
+    "properties": {
+      "name": "CNIB"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.686171,
+        43.454232,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Mental Health Association Halton Region"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78711699999997,
+        43.35762,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Development Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70903399999997,
+        43.417251,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Oakville"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.6861068,
+        43.4461483,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Youth in Action Network (CYAN)\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67675400000002,
+        43.457572,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Youth Programs"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.75936999999999,
+        43.686569,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Elizabeth Fry Society of Peel Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.68620599999998,
+        43.454476,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Food For Life\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.68203900000003,
+        43.453421,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Grace House"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.66769199999999,
+        43.446433,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Family Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78316359999997,
+        43.3712956,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Food For Thought\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70463999999998,
+        43.43112,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Multicultural Council"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67373399999997,
+        43.440551,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Trauma Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.66994869999996,
+        43.4442971,
+        0
+      ]
+    },
+    "properties": {
+      "name": "HIPPY Oakville\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.673134,
+        43.440017,
+        0
+      ]
+    },
+    "properties": {
+      "name": "The Lighthouse Program for Grieving Children"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.75185099999999,
+        43.368698,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Nelson Youth Centres"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67382299999997,
+        43.453446,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Oakville Kiwanis Meals on Wheels\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70959700000003,
+        43.440662,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Oakville Parent - Child Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.706369,
+        43.399317,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Reach Out Centre For Kids-Roc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.69482299999999,
+        43.440585,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. John Ambulance Oakville-Milton Branch"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70528289999999,
+        43.4120876,
+        0
+      ]
+    },
+    "properties": {
+      "name": "SAVIS (Sexual Assault and Violence Intervention Services)\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67700200000002,
+        43.442551,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Senaca Senior Day Program"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.729376,
+        43.414719,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Stride"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67559399999999,
+        43.46629,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Support & Housing Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70571799999999,
+        43.411113,
+        0
+      ]
+    },
+    "properties": {
+      "name": "The Women's Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.9164093,
+        43.6512207,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Distress Centre Oakville\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.68377350000003,
+        43.54265350000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Hearing Society\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79949669999996,
+        43.32669,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Access Counselling and Family Services\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.73431099999999,
+        43.41266100000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hope Place Centres"
+    }
+  } ]
+}
