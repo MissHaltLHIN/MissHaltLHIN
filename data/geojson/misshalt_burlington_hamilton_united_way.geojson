@@ -1,0 +1,1318 @@
+{
+  "type": "FeatureCollection",
+  "features": [ {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78873299999998,
+        43.361013,
+        0
+      ]
+    },
+    "properties": {
+      "name": "United Way of Burlington Office\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86454090000001,
+        43.2572318,
+        0
+      ]
+    },
+    "properties": {
+      "name": "United Way Hamilton Office",
+      "description": "77 Rebecca St, Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79967999999997,
+        43.326643,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Access Counseling & Family Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.90925099999998,
+        43.333679,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Flamborough Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.865214,
+        43.248558,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Queens Victoria YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87010700000002,
+        43.255743,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Alternatives For Youth"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.75090799999998,
+        43.217004,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Stoney Creek YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79451799999998,
+        43.409236,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Christopher's YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79378700000001,
+        43.33433000000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Ron Edwards Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.76142400000003,
+        43.236229,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA Immigrant Services - Stoney Creek"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85870000000001,
+        43.231683,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Mountain YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81883600000003,
+        43.243864,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YWCA Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.869868,
+        43.254182,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton Downtown Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.80844200000001,
+        43.332468000000006,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Acclaim Health"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.763265,
+        43.39735,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Mental Health Assn"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.77947699999999,
+        43.333847,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Red Cross"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.635895,
+        43.591965,
+        0
+      ]
+    },
+    "properties": {
+      "name": "CNIB"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78664400000002,
+        43.357974,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Development Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81019100000003,
+        43.358375,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Burlington"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78211699999997,
+        43.43155000000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Forestview Church Without Walls"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79463049999998,
+        43.3450569,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Family Services\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.763484,
+        43.359321,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Nelson Youth Centres"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67366700000002,
+        43.440271,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Radius Child & Youth Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.796311,
+        43.328461,
+        0
+      ]
+    },
+    "properties": {
+      "name": "The Reach Out Centre For Kids"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.70627100000002,
+        43.413075,
+        0
+      ]
+    },
+    "properties": {
+      "name": "SAVIS of Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.72937200000001,
+        43.414717,
+        0
+      ]
+    },
+    "properties": {
+      "name": "STRIDE"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87583000000001,
+        43.517886,
+        0
+      ]
+    },
+    "properties": {
+      "name": "STRIDE"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.97724299999999,
+        43.225192,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Ancaster Information Centre and Community Services Inc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.8677568,
+        43.2523998,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Mental Health Association, Hamilton Branch\n",
+      "description": "www.cmhahamilton.ca"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.857346,
+        43.253137,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Red Cross"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85226799999998,
+        43.251004,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Catholic Family Services of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.793122,
+        43.233724,
+        0
+      ]
+    },
+    "properties": {
+      "name": "CNIB"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87521700000002,
+        43.260914,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.954203,
+        43.265845,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Dundas Community Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.842244,
+        43.248938,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Elizabeth Fry Society Of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.889252,
+        43.330844,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Flamborough Information and Community Services\n",
+      "description": "Waterdown Seniors Social Club"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84948300000002,
+        43.241661,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton & District Ostomy"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.837131,
+        43.244801,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton Council on Aging"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.952156,
+        43.265687,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Jewish Social Services Of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84054900000001,
+        43.248077,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Peter's HARRRP Community Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87044200000003,
+        43.258874,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Information Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.83729299999999,
+        43.256566,
+        0
+      ]
+    },
+    "properties": {
+      "name": "The John Howard Society of Hamilton, Burlington & Area"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.91367000000002,
+        43.231813,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Lynwood Charlton Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.901204,
+        43.258927,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Multiple Sclerosis of Canada Hamilton Chapter\n",
+      "description": "875 Main St West, Lower Level 7<br>Hamilton, Ontario"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84302300000002,
+        43.264964,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Robert Land Community Association"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86031400000002,
+        43.253961,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Sexual Assault Centre (Hamilton)"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85868600000003,
+        43.253175,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Social Planning & Research Council Of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.835552,
+        43.195625,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. John Ambulance"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.89011399999998,
+        43.26336500000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St Joseph's Home Care"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.89477399999998,
+        43.205258,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St Joseph's Home Care"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.957698,
+        43.26175,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Joseph's Villa"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84763599999998,
+        43.259457,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Matthew's House"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86862300000001,
+        43.253398,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Canadian Hearing Society Hamilton Regional Office"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86644899999999,
+        43.256709,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Volunteer Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86446799999999,
+        43.257075,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wesley Urban Ministries"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -80.24019399999997,
+        43.184496,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Brantford Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -80.22828099999998,
+        43.1483,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA-FLMLTN-Burlington-BRNTFRD"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81599699999998,
+        43.349926,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Food for Life"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.67559399999999,
+        43.46629,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Support & Housing Halton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85226799999998,
+        43.251004,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Catholic Family Services of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.83761199999998,
+        43.129346,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Glanbrook Home Support Programme Inc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87192900000002,
+        43.25454,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton Literacy Council"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86678999999998,
+        43.258883,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Living Rock The"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84763599999998,
+        43.259457,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Matthew's House"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86361699999998,
+        43.258561,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Threshold School Of Building"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.877927,
+        43.257379,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wesley Urban Ministries Inc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.859085,
+        43.260739,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wesley Urban Ministries Inc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87681199999997,
+        43.264506,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wesley Urban Ministries Inc"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.91513299999997,
+        43.242611,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YWCA Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81883600000003,
+        43.243864,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YWCA Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.845014,
+        43.249212,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Big Brothers Big Sisters of Hamilton & Burlington"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79584999999997,
+        43.358046,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Big Brothers Big Sisters of Canada"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81019140000001,
+        43.3583746,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Burlington\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78383300000002,
+        43.37175,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Halton Food for Thought"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.796311,
+        43.328461,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Reach Out Centre For Kids"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87796000000003,
+        43.261147,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA Of Hamilton/Burlington/Brantford"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.865214,
+        43.248558,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Queens Victoria YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85870000000001,
+        43.231683,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Mountain YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87967300000003,
+        43.209479,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA-Hamilton-Burlington"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.878109,
+        43.19829300000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Les Chater Family YMCA - Hamilton Mountain"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.75090799999998,
+        43.217004,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Stoney Creek YMCA Child Care Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.808561,
+        43.332755,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA-Hamilton-Burlington"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79378700000001,
+        43.33433000000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Ron Edwards Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.90925099999998,
+        43.333679,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Flamborough Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.869868,
+        43.254182,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton Downtown Family YMCA"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.79381699999999,
+        43.221915,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Boys and Girls Clubs of Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.870521,
+        43.120527,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Catholic Youth Organization\n",
+      "description": "Camp Marydale"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86153100000001,
+        43.255621,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Children's International Learning Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84137699999997,
+        43.251477,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Dawn Patrol Child & Youth Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85818499999999,
+        43.25072,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Dawn Patrol Child & Youth Services"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87329299999999,
+        43.258244,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Hamilton-Wentworth District School Board"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.85693500000002,
+        43.275119,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Navy League Of Canada"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84302300000002,
+        43.264964,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Robert Land Community Association"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.91025150000002,
+        43.2606749,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Student Open Circles\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.860679,
+        43.271072,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Welcome Inn Community Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.78766189999999,
+        43.2108978,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wesley Urban Ministries\n",
+      "description": "Reading Buddies"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84634410000001,
+        43.25727630000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Weaver Community Hub\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87967300000003,
+        43.209479,
+        0
+      ]
+    },
+    "properties": {
+      "name": "YMCA-Hamilton-Burlington"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81069500000001,
+        43.248531,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Kiwanis Boys & Girls Club"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84634410000001,
+        43.25727630000001,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Wever Community Hub\n"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.860679,
+        43.271072,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Welcome Inn Community Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81069500000001,
+        43.248531,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Kiwanis Boys & Girls Club"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.91367000000002,
+        43.231813,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Lynwood Charlton Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.86678999999998,
+        43.258883,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Living Rock The"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84763599999998,
+        43.259457,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Matthew's House"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84054900000001,
+        43.248077,
+        0
+      ]
+    },
+    "properties": {
+      "name": "St. Peter's HARRRP Community Centre"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.84302300000002,
+        43.264964,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Robert Land Community Association"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.87521700000002,
+        43.260914,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Hamilton"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -79.81019100000003,
+        43.358375,
+        0
+      ]
+    },
+    "properties": {
+      "name": "Community Living Burlington"
+    }
+  } ]
+}
