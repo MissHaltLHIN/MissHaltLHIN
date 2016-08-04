@@ -10,6 +10,8 @@ var map = new mapboxgl.Map({
 // URL for GeoJSON layers from GeoServer
 var nhs_data = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson";
 var schools = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_schools_4326.geojson";
+var united_way_oakville = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_oakville_united_way.geojson";
+var united_way_bur_ham = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_burlington_hamilton_united_way.geojson";
 // Adding Line Type Layers to the Current Map, takes in the URL for the dataset, Color, and an ID string to name the
 // the Layer
 function addLineTypeLayer(data_url,color,id){
@@ -66,7 +68,7 @@ function addPointTypeLayer(data_url,id){
             "type": "symbol", //
             "source": id, // The source layer we defined above
             "layout": {
-                "icon-image": "school-15"
+                "icon-image": (id === 'schools' ? "school-15" : "marker-15")
             }
         });
     });
@@ -82,7 +84,7 @@ function addPointTypeLayer(data_url,id){
 
         var popup = new mapboxgl.Popup()
             .setLngLat(map.unproject(e.point))
-            .setHTML('<b>School Name:  </b>'+feature.properties.schoolName)
+            .setHTML('<b>Name:  </b>'+feature.properties.name)
             .addTo(map);
     });
 
@@ -96,5 +98,7 @@ function addPointTypeLayer(data_url,id){
 //Call the functions that adds layers to the map.
 addLineTypeLayer(nhs_data,'#088','nhs_data');
 addPointTypeLayer(schools,'schools');
+addPointTypeLayer(united_way_oakville, 'united_way_oakville');
+addPointTypeLayer(united_way_bur_ham, 'united_way_bur_ham');
 //addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
 //addPointTypeLayer(label,'#FF0000','labels');
