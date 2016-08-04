@@ -4,11 +4,11 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic29uYWxyIiwiYSI6ImI3ZGNmNTI1Mzc1NzFlYTExMGJkZ
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v8',
-    center: [-79.3832, 43.6532],
-    zoom: 20
+    center: [-79.801, 43.559],
+    zoom: 10
 });
 // URL for GeoJSON layers from GeoServer
-var floor_plan = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson";
+var nhs_data = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson";
 // Adding Line Type Layers to the Current Map, takes in the URL for the dataset, Color, and an ID string to name the
 // the Layer
 function addLineTypeLayer(data_url,color,id){
@@ -19,14 +19,39 @@ function addLineTypeLayer(data_url,color,id){
         });
         map.addLayer({
             "id": id, // An id for this layer
-            "type": "line", //
+            "type": "fill", //
             "source": id, // The source layer we defined above
             "paint": {
-                "line-color": color,
-                "line-width": 1
+                "fill-color": color,
+                "fill-outline-color":"#FFFFFF",
+                "fill-opacity": 0.4
             }
         });
+
+    })
+
+    // When a click event occurs near a polygon, open a popup at the location of
+    // the feature, with description HTML from its properties.
+    map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: [id] });
+        if (!features.length) {
+            return;
+        }
+
+        var feature = features[0];
+
+        var popup = new mapboxgl.Popup()
+            .setLngLat(map.unproject(e.point))
+            .setHTML('<b>healthdat_all_field_1:  </b>'+feature.properties.healthdat_all_field_1)
+            .addTo(map);
     });
+
+// Use the same approach as above to indicate that the symbols are clickable
+// by changing the cursor style to 'pointer'.
+    map.on('mousemove', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: [id] });
+        map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+    });;
 }
 // Adds Point type layer to the map, takes in the URL for the dataset, color and an ID string to name the layer
 function addPointTypeLayer(data_url,color,id){
@@ -50,11 +75,6 @@ function addPointTypeLayer(data_url,color,id){
     });
 }
 //Call the functions that adds layers to the map.
-addLineTypeLayer(floor_plan,'#000000','floor_plan');
+addLineTypeLayer(nhs_data,'#088','nhs_data');
 //addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
 //addPointTypeLayer(label,'#FF0000','labels');
-//Fit the map bounds to the dataset, currently it is hard-coded
-//map.fitBounds([
- //   [-0.0469537302851677,
-  //      0.097306914627552],
-   // [-0.0092203700914979,0.117602042853832]])
