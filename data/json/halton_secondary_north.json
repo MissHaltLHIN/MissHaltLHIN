@@ -1,0 +1,29 @@
+[ {
+	"schoolName": "ACTON DISTRICT HIGH SCHOOL",
+	"address": "21 Cedar Road",
+	"city": "Acton",
+	"postalCode": "L7J 2V2",
+	"phoneNum": "519 853-2920",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "CRAIG KIELBURGER SECONDARY SCHOOL",
+	"address": "1151 Ferguson Drive",
+	"city": "Milton",
+	"postalCode": "L9T 7V8",
+	"phoneNum": "905 878-0575",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "GEORGETOWN DISTRICT HIGH SCHOOL",
+	"address": "70 Guelph Street",
+	"city": "Georgetown",
+	"postalCode": "L7G 3Z5",
+	"phoneNum": "905 877-6966",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "MILTON DISTRICT HIGH SCHOOL",
+	"address": "396 Williams Avenue",
+	"city": "Milton",
+	"postalCode": "L9T 2G4",
+	"phoneNum": "905 878-2839 /905 878-4074",
+	"schoolLevel": "secondary"
+} ]

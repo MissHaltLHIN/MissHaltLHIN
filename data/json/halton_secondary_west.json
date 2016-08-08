@@ -1,0 +1,85 @@
+[ {
+	"schoolName": "ALDERSHOT HIGH SCHOOL",
+	"address": "50 Fairwood Place West",
+	"city": "Burlington",
+	"postalCode": "L7T 1E5",
+	"phoneNum": "905 637-2383",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "BURLINGTON CENTRAL HIGH SCHOOL",
+	"address": "1433 Baldwin Street",
+	"city": "Burlington",
+	"postalCode": "L7S 1K4",
+	"phoneNum": "905 634-7768",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "DR. FRANK J. HAYDEN SECONDARY SCHOOL",
+	"address": "3040 Tim Dobbie Drive",
+	"city": "Burlington",
+	"postalCode": "L7M 0N6",
+	"phoneNum": "905 332-5235",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "LESTER B. PEARSON HIGH SCHOOL",
+	"address": "1433 Headon Road",
+	"city": "Burlington",
+	"postalCode": "L7M 1V7",
+	"phoneNum": "905 335-0961",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "M. M. ROBINSON HIGH SCHOOL",
+	"address": "2425 Upper Middle Road",
+	"city": "Burlington",
+	"postalCode": "L7P 3N9",
+	"phoneNum": "905 335-5588",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "NELSON HIGH SCHOOL",
+	"address": "4181 New Street",
+	"city": "Burlington",
+	"postalCode": "L7L 1T3",
+	"phoneNum": "905 637-3825",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "ROBERT BATEMAN HIGH SCHOOL",
+	"address": "5151 New Street",
+	"city": "Burlington",
+	"postalCode": "L7L 1V3",
+	"phoneNum": "905 632-5151",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "GARY ALLAN HIGH SCHOOL (ADULT, ALTERNATIVE AND COMMUNITY EDUCATION) - New St. Education Centre",
+	"city": "Burlington",
+	"address": "3250 New Street",
+	"postalCode": "L7N 1M8",
+	"phoneNum": "905 632-2944",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "GARY ALLAN HIGH SCHOOL (ADULT, ALTERNATIVE AND COMMUNITY EDUCATION) - White Oaks",
+	"city": "Oakville",
+	"address": "1330 Montclair Drive",
+	"postalCode": "L6H 1Z5",
+	"phoneNum": "905-845-7542",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "GARY ALLAN HIGH SCHOOL (ADULT, ALTERNATIVE AND COMMUNITY EDUCATION) - EC Drury",
+	"city": "Milton",
+	"postalCode": "L9T 4N5",
+	"address": "215 Ontario St S",
+	"phoneNum": "905 878-1480",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "GARY ALLAN HIGH SCHOOL (ADULT, ALTERNATIVE AND COMMUNITY EDUCATION) - Halton Hills",
+	"city": "Georgetown",
+	"postalCode": "L7G 3Z5",
+	"address": "96 Guelph Street",
+	"phoneNum": "905 873-8783",
+	"schoolLevel": "secondary"
+}, {
+	"schoolName": "THE CENTRE FOR SKILLS DEVELOPMENT AND TRAINING",
+	"city": "Burlington",
+	"address": "860 Harrington Court",
+	"phoneNum": "905 333-3499",
+	"postalCode": "L7N 3N4",
+	"schoolLevel": "secondary"
+} ]
