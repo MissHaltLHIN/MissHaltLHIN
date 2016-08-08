@@ -1,4 +1,4 @@
-{
+[ {
 	"schoolName": "ANNE J. MacARTHUR PUBLIC SCHOOL",
 	"address": "820 Farmstead Drive",
 	"city": "Milton",
@@ -117,4 +117,4 @@
 	"typeOfElementary": "JK-5",
 	"phoneNum": "519 853-2540",
 	"schoolLevel": "elementary"
-},
+} ]
