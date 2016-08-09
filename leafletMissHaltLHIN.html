@@ -2,6 +2,7 @@
 <head>
 
     <!-- Latest compiled and minified CSS -->
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -13,7 +14,7 @@
     <script src="leaflet/leaflet.js"></script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     
-    <script src='map.js'></script>
+    <script src='js/map.js'></script>
      
 
 </head>
@@ -50,7 +51,7 @@
         L.control.zoom({position: 'topright'}).addTo(mymap)
 
 
-        var poly = uploadFile("misshalt_nhs.geojson");
+        var poly = uploadFile("data/geojson/misshalt_nhs_4326.geojson");
         console.log(poly);
 
         var polyLayer = L.geoJson(poly,{style: {weight:1, color: "grey", fillOpacity: 0}}).addTo(mymap);

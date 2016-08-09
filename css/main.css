@@ -53,6 +53,17 @@
 .navmenu {
     z-index: 1;
 }
+#sidebar {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    width: 250px;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: "Arial";
+    padding-left: 10px;
+}
 
 
 
