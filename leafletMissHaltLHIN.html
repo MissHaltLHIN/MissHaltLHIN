@@ -51,7 +51,7 @@
         L.control.zoom({position: 'topright'}).addTo(mymap)
 
 
-        var poly = uploadFile("data/geojson/misshalt_nhs.geojson");
+        var poly = uploadFile("data/geojson/misshalt_nhs_4326.geojson");
         console.log(poly);
 
         var polyLayer = L.geoJson(poly,{style: {weight:1, color: "grey", fillOpacity: 0}}).addTo(mymap);
