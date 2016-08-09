@@ -37,7 +37,7 @@ function addLineTypeLayer(data_url,id){
             "source": id, // The source layer we defined above
             "paint": {
                 "fill-color": {
-                    property: 'healthdat_all_Visible minority population Chinese',
+                    property: 'healthdat_all_Age at immigration 25 to 44 years',
                     stops:[
                         [BREAKS[0], COLORS[0]],
                         [BREAKS[1], COLORS[1]],
@@ -76,7 +76,15 @@ function addLineTypeLayer(data_url,id){
 // by changing the cursor style to 'pointer'.
     map.on('mousemove', function (e) {
         var features = map.queryRenderedFeatures(e.point, { layers: [id] });
-        map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+
+        if (features.length) {
+            //Show name and value in sidebar
+            document.getElementById('tooltip-name').innerHTML = "Count: " + features[0].properties["healthdat_all_Age at immigration 25 to 44 years"];
+        }
+        else {
+            document.getElementById('tooltip-name').innerHTML = "";
+            document.getElementById('tooltip').innerHTML = "";
+        }
     });
 };
 // Adds Point type layer to the map, takes in the URL for the dataset, color and an ID string to name the layer
