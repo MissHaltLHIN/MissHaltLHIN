@@ -1,9 +1,15 @@
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic29uYWxyIiwiYSI6ImI3ZGNmNTI1Mzc1NzFlYTExMGJkZTVlZDYxYWY4NzJmIn0.wxeViIZtMPq2IPoD9mB5qQ';
+
+//globals for the choropleth
+var COLORS = ['#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#084594'],
+    BREAKS = [0, 100, 200, 300, 400, 500, 600],
+    FILTERUSE;
+
 // Initialize new MapBox Map
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/basic-v9',
+    style: 'mapbox://styles/mapbox/light-v9',
     center: [-79.801, 43.559],
     zoom: 10
 });
@@ -14,7 +20,12 @@ var united_way_oakville = "https://raw.githubusercontent.com/MissHaltLHIN/MissHa
 var united_way_bur_ham = "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_burlington_hamilton_united_way.geojson";
 // Adding Line Type Layers to the Current Map, takes in the URL for the dataset, Color, and an ID string to name the
 // the Layer
-function addLineTypeLayer(data_url,color,id){
+function addLineTypeLayer(data_url,id){
+
+
+
+    //Add zoom and rotation controls to the map
+    map.addControl(new mapboxgl.Navigation());
     map.on('style.load', function() {
         map.addSource(id, {
             "type": "geojson",
@@ -25,9 +36,20 @@ function addLineTypeLayer(data_url,color,id){
             "type": "fill", //
             "source": id, // The source layer we defined above
             "paint": {
-                "fill-color": color,
-                "fill-outline-color":"#000000",
-                "fill-opacity": 0.3
+                "fill-color": {
+                    property: 'healthdat_all_Visible minority population Chinese',
+                    stops:[
+                        [BREAKS[0], COLORS[0]],
+                        [BREAKS[1], COLORS[1]],
+                        [BREAKS[2], COLORS[2]],
+                        [BREAKS[3], COLORS[3]],
+                        [BREAKS[4], COLORS[4]],
+                        [BREAKS[5], COLORS[5]],
+                        [BREAKS[6], COLORS[6]]
+                    ]
+                },
+                "fill-outline-color":"#ffffff",
+                "fill-opacity": 0.7
             }
         });
 
@@ -35,6 +57,7 @@ function addLineTypeLayer(data_url,color,id){
 
     // When a click event occurs near a polygon, open a popup at the location of
     // the feature, with description HTML from its properties.
+    /*
     map.on('click', function (e) {
         var features = map.queryRenderedFeatures(e.point, { layers: [id] });
         if (!features.length) {
@@ -45,9 +68,9 @@ function addLineTypeLayer(data_url,color,id){
 
         var popup = new mapboxgl.Popup()
             .setLngLat(map.unproject(e.point))
-            .setHTML('<b>healthdat_all_field_1:  </b>'+feature.properties.healthdat_all_field_1)
+            .setHTML('<b>healthdat_all_field_1:  </b>'+feature.properties["healthdat_all_Age at immigration 5 to 14 years"])
             .addTo(map);
-    });
+    });*/
 
 // Use the same approach as above to indicate that the symbols are clickable
 // by changing the cursor style to 'pointer'.
@@ -96,9 +119,9 @@ function addPointTypeLayer(data_url,id){
     });
 }
 //Call the functions that adds layers to the map.
-addLineTypeLayer(nhs_data,'#088','nhs_data');
-addPointTypeLayer(schools,'schools');
-addPointTypeLayer(united_way_oakville, 'united_way_oakville');
-addPointTypeLayer(united_way_bur_ham, 'united_way_bur_ham');
+addLineTypeLayer(nhs_data,'nhs_data');
+//addPointTypeLayer(schools,'schools');
+//addPointTypeLayer(united_way_oakville, 'united_way_oakville');
+//addPointTypeLayer(united_way_bur_ham, 'united_way_bur_ham');
 //addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
 //addPointTypeLayer(label,'#FF0000','labels');
