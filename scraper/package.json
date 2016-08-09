@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "bluebird": "^3.4.1",
+    "node-geocoder": "^3.13.1",
     "noodlejs": "^0.3.2",
     "x-ray": "^2.3.0"
   },

@@ -1,220 +1,271 @@
 [ {
-		"schoolName": "ABBEY LANE PUBLIC SCHOOL",
-		"address": "1160 Old Abbey Lane",
-		"city": "Oakville",
-		"postalCode": "L6M 1S4",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 827-5552",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "BROOKDALE PUBLIC SCHOOL",
-		"address": "1195 Bridge Road",
-		"city": "Oakville",
-		"postalCode": "L6L 2C3",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 827-2741",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "CAPTAIN R. WILSON PUBLIC SCHOOL",
-		"address": "2145 Grand Oak Trail",
-		"city": "Oakville",
-		"postalCode": "Ontario L6M 4S7",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 465-3881",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "EASTVIEW PUBLIC SCHOOL",
-		"address": "2266 Hixon Street",
-		"city": "Oakville",
-		"postalCode": "L6L 4T4",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 827-1541",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "E. J. JAMES PUBLIC SCHOOL",
-		"address": "338 Cairncroft Road",
-		"city": "Oakville",
-		"postalCode": "L6J 4M6",
-		"typeOfElemenatary": "1-8*",
-		"phoneNum": "905 845-2015",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "EMILY CARR PUBLIC SCHOOL",
-		"address": "2255 Pine Glen Road",
-		"city": "Oakville",
-		"postalCode": "ON L6M 0G5",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 827-3928",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "FALGARWOOD PUBLIC SCHOOL",
-		"address": "1385 Gainsborough Drive",
-		"city": "Oakville",
-		"postalCode": "L6H 2H7",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 845-7478",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "FOREST TRAIL PUBLIC SCHOOL",
-		"address": "1406 Pine Glen Road",
-		"city": "Oakville",
-		"postalCode": "L6M 4B9",
-		"typeOfElemenatary": "1-8*",
-		"phoneNum": "905 469-0341",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "GLADYS SPEERS PUBLIC SCHOOL",
-		"address": "2150 Samway Road",
-		"city": "Oakville",
-		"postalCode": "L6L 2P6",
-		"typeOfElemenatary": "JK-6",
-		"phoneNum": "905 827-4841",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "HERITAGE GLEN PUBLIC SCHOOL",
-		"address": "1641 Heritage Way",
-		"city": "Oakville",
-		"postalCode": "L6M 2Z4",
-		"typeOfElemenatary": "JK-8*",
-		"phoneNum": "905 847-5496",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "JAMES W. HILL PUBLIC SCHOOL",
-		"address": "2860 Kingsway Drive",
-		"city": "Oakville",
-		"postalCode": "ON L6J 6R3",
-		"typeOfElemenatary": "JK-8*",
-		"phoneNum": "905 845-2333",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "JOSHUA CREEK PUBLIC SCHOOL",
-		"address": "1450 Arrowhead Road",
-		"city": "Oakville",
-		"postalCode": "L6H 7P9",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 257-7492",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "MAPLE GROVE PUBLIC SCHOOL",
-		"address": "288 Maple Grove Drive",
-		"city": "Oakville",
-		"postalCode": "L6J 4V5",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 844-9322",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "MONTCLAIR PUBLIC SCHOOL",
-		"address": "1285 Montclair Dr",
-		"city": "Oakville",
-		"postalCode": "L6H 1Z3",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 845-9590",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "MUNN’S PUBLIC SCHOOL",
-		"address": "1511 Sixth Line",
-		"city": "Oakville",
-		"postalCode": "L6H 1X8",
-		"typeOfElemenatary": "1-8*",
-		"phoneNum": "905 844-9461",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "NEW CENTRAL PUBLIC SCHOOL",
-		"address": "133 Balsam Drive",
-		"city": "Oakville",
-		"postalCode": "L6J 3X4",
-		"typeOfElemenatary": "JK-6",
-		"phoneNum": "905 844-3081",
-		"schoolLevel": "elementary"
-	},
-
-	"Page 2 of 7 February 1, 2016", {
-		"schoolName": "OAKWOOD PUBLIC SCHOOL",
-		"address": "357 Bartos Drive",
-		"city": "Oakville",
-		"postalCode": "L6K 3E5",
-		"typeOfElemenatary": "JK-5",
-		"phoneNum": "905 845-0412",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "OODENAWI PUBLIC SCHOOL",
-		"address": "385 Sixteen Mile Drive",
-		"city": "Oakville",
-		"postalCode": null,
-		"typeOfElemenatary": "K-7*",
-		"phoneNum": "905-257-6594",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "PALERMO PUBLIC SCHOOL",
-		"address": "2561 Valleyridge Drive",
-		"city": "Oakville",
-		"postalCode": "L6M 5H4",
-		"typeOfElemenatary": "JK-8*",
-		"phoneNum": "905 469-1138",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "PILGRIM WOOD PUBLIC SCHOOL",
-		"address": "1551 Pilgrim’s Way",
-		"city": "Oakville",
-		"postalCode": "L6M 2W7",
-		"typeOfElemenatary": "JK-8*",
-		"phoneNum": "905 825-9808",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "PINE GROVE PUBLIC SCHOOL",
-		"address": "529 Fourth Line",
-		"city": "Oakville",
-		"postalCode": "L6L 5A8",
-		"typeOfElemenatary": "1-8*",
-		"phoneNum": "905 844-6371",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "POST’S CORNERS PUBLIC SCHOOL",
-		"address": "2220 Caldwell Drive",
-		"city": "Oakville",
-		"postalCode": "L6H 6B5",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 845-1661",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "RIVER OAKS PUBLIC SCHOOL",
-		"address": "2173 Munn’s Avenue",
-		"city": "Oakville",
-		"postalCode": "L6H 3S9",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 842-7430",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "SHERIDAN PUBLIC SCHOOL",
-		"address": "1555 Lancaster Drive",
-		"city": "Oakville",
-		"postalCode": "L6H 3H4",
-		"typeOfElemenatary": "JK-5",
-		"phoneNum": "905 845-3925",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "SUNNINGDALE PUBLIC SCHOOL",
-		"address": "1434 Oxford Avenue",
-		"city": "Oakville",
-		"postalCode": "L6H 1T4",
-		"typeOfElemenatary": "1-8*",
-		"phoneNum": "905 844-9941",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "W. H. MORDEN PUBLIC SCHOOL",
-		"address": "180 Morden Road",
-		"city": "Oakville",
-		"postalCode": "L6K 2S3",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 844-9616",
-		"schoolLevel": "elementary"
-	}, {
-		"schoolName": "WEST OAK PUBLIC SCHOOL",
-		"address": "2071 Fourth Line",
-		"city": "Oakville",
-		"postalCode": "L6M 3K1",
-		"typeOfElemenatary": "JK-8",
-		"phoneNum": "905 469-6119",
-		"schoolLevel": "elementary"
-	}
-]
+	"schoolName": "ABBEY LANE PUBLIC SCHOOL",
+	"address": "1160 Old Abbey Lane",
+	"city": "Oakville",
+	"postalCode": "L6M 1S4",
+	"Latitude": 43.4453287,
+	"Longitude": -79.7110653,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 827-5552",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "BROOKDALE PUBLIC SCHOOL",
+	"address": "1195 Bridge Road",
+	"city": "Oakville",
+	"postalCode": "L6L 2C3",
+	"Latitude": 43.4245565,
+	"Longitude": -79.7038771,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 827-2741",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "CAPTAIN R. WILSON PUBLIC SCHOOL",
+	"address": "2145 Grand Oak Trail",
+	"city": "Oakville",
+	"postalCode": "L6M 4S7",
+	"Latitude": 43.4283733,
+	"Longitude": -79.7592638,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 465-3881",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "EASTVIEW PUBLIC SCHOOL",
+	"address": "2266 Hixon Street",
+	"city": "Oakville",
+	"postalCode": "L6L 4T4",
+	"Latitude": 43.4258852,
+	"Longitude": -79.7029128,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 827-1541",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "E. J. JAMES PUBLIC SCHOOL",
+	"address": "338 Cairncroft Road",
+	"city": "Oakville",
+	"postalCode": "L6J 4M6",
+	"Latitude": 43.4680914,
+	"Longitude": -79.6582801,
+	"typeOfElemenatary": "1-8*",
+	"phoneNum": "905 845-2015",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "EMILY CARR PUBLIC SCHOOL",
+	"address": "2255 Pine Glen Road",
+	"city": "Oakville",
+	"postalCode": "L6M 0G5",
+	"Latitude": 43.4424656,
+	"Longitude": -79.763469,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 827-3928",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "FALGARWOOD PUBLIC SCHOOL",
+	"address": "1385 Gainsborough Drive",
+	"city": "Oakville",
+	"postalCode": "L6H 2H7",
+	"Latitude": 43.4789256,
+	"Longitude": -79.6840628,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 845-7478",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "FOREST TRAIL PUBLIC SCHOOL",
+	"address": "1406 Pine Glen Road",
+	"city": "Oakville",
+	"postalCode": "L6M 4B9",
+	"Latitude": 43.4515174,
+	"Longitude": -79.7531309,
+	"typeOfElemenatary": "1-8*",
+	"phoneNum": "905 469-0341",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "GLADYS SPEERS PUBLIC SCHOOL",
+	"address": "2150 Samway Road",
+	"city": "Oakville",
+	"postalCode": "L6L 2P6",
+	"Latitude": 43.4099345,
+	"Longitude": -79.7152727,
+	"typeOfElemenatary": "JK-6",
+	"phoneNum": "905 827-4841",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "HERITAGE GLEN PUBLIC SCHOOL",
+	"address": "1641 Heritage Way",
+	"city": "Oakville",
+	"postalCode": "L6M 2Z4",
+	"Latitude": 43.4322211,
+	"Longitude": -79.7424411,
+	"typeOfElemenatary": "JK-8*",
+	"phoneNum": "905 847-5496",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "JAMES W. HILL PUBLIC SCHOOL",
+	"address": "2860 Kingsway Drive",
+	"city": "Oakville",
+	"postalCode": "L6J 6R3",
+	"Latitude": 43.5016956,
+	"Longitude": -79.6610867,
+	"typeOfElemenatary": "JK-8*",
+	"phoneNum": "905 845-2333",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "JOSHUA CREEK PUBLIC SCHOOL",
+	"address": "1450 Arrowhead Road",
+	"city": "Oakville",
+	"postalCode": "L6H 7P9",
+	"Latitude": 43.4997817,
+	"Longitude": -79.6989678,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 257-7492",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "MAPLE GROVE PUBLIC SCHOOL",
+	"address": "288 Maple Grove Drive",
+	"city": "Oakville",
+	"postalCode": "L6J 4V5",
+	"Latitude": 43.4738023,
+	"Longitude": -79.6523157,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 844-9322",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "MONTCLAIR PUBLIC SCHOOL",
+	"address": "1285 Montclair Dr",
+	"city": "Oakville",
+	"postalCode": "L6H 1Z3",
+	"Latitude": 43.4630194,
+	"Longitude": -79.6991431,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 845-9590",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "MUNN’S PUBLIC SCHOOL",
+	"address": "1511 Sixth Line",
+	"city": "Oakville",
+	"postalCode": "L6H 1X8",
+	"Latitude": 43.4662554,
+	"Longitude": -79.7101887,
+	"typeOfElemenatary": "1-8*",
+	"phoneNum": "905 844-9461",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "NEW CENTRAL PUBLIC SCHOOL",
+	"address": "133 Balsam Drive",
+	"city": "Oakville",
+	"postalCode": "L6J 3X4",
+	"Latitude": 43.4535799,
+	"Longitude": -79.66249,
+	"typeOfElemenatary": "JK-6",
+	"phoneNum": "905 844-3081",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "OAKWOOD PUBLIC SCHOOL",
+	"address": "357 Bartos Drive",
+	"city": "Oakville",
+	"postalCode": "L6K 3E5",
+	"Latitude": 43.4465555,
+	"Longitude": -79.6835367,
+	"typeOfElemenatary": "JK-5",
+	"phoneNum": "905 845-0412",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "OODENAWI PUBLIC SCHOOL",
+	"address": "385 Sixteen Mile Drive",
+	"city": "Oakville",
+	"postalCode": "n/a",
+	"Latitude": 45.5130916,
+	"Longitude": -73.5583918,
+	"typeOfElemenatary": "K-7*",
+	"phoneNum": "905-257-6594",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "PALERMO PUBLIC SCHOOL",
+	"address": "2561 Valleyridge Drive",
+	"city": "Oakville",
+	"postalCode": "L6M 5H4",
+	"Latitude": 43.4317797,
+	"Longitude": -79.7755577,
+	"typeOfElemenatary": "JK-8*",
+	"phoneNum": "905 469-1138",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "PILGRIM WOOD PUBLIC SCHOOL",
+	"address": "1551 Pilgrim’s Way",
+	"city": "Oakville",
+	"postalCode": "L6M 2W7",
+	"Latitude": 43.4338965,
+	"Longitude": -79.7296467,
+	"typeOfElemenatary": "JK-8*",
+	"phoneNum": "905 825-9808",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "PINE GROVE PUBLIC SCHOOL",
+	"address": "529 Fourth Line",
+	"city": "Oakville",
+	"postalCode": "L6L 5A8",
+	"Latitude": 43.4306757,
+	"Longitude": -79.6973897,
+	"typeOfElemenatary": "1-8*",
+	"phoneNum": "905 844-6371",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "POST’S CORNERS PUBLIC SCHOOL",
+	"address": "2220 Caldwell Drive",
+	"city": "Oakville",
+	"postalCode": "L6H 6B5",
+	"Latitude": 43.4755093,
+	"Longitude": -79.713695,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 845-1661",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "RIVER OAKS PUBLIC SCHOOL",
+	"address": "2173 Munn’s Avenue",
+	"city": "Oakville",
+	"postalCode": "L6H 3S9",
+	"Latitude": 43.4657445,
+	"Longitude": -79.7226353,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 842-7430",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "SHERIDAN PUBLIC SCHOOL",
+	"address": "1555 Lancaster Drive",
+	"city": "Oakville",
+	"postalCode": "L6H 3H4",
+	"Latitude": 43.4821475,
+	"Longitude": -79.6900251,
+	"typeOfElemenatary": "JK-5",
+	"phoneNum": "905 845-3925",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "SUNNINGDALE PUBLIC SCHOOL",
+	"address": "1434 Oxford Avenue",
+	"city": "Oakville",
+	"postalCode": "L6H 1T4",
+	"Latitude": 43.4587002,
+	"Longitude": -79.7122925,
+	"typeOfElemenatary": "1-8*",
+	"phoneNum": "905 844-9941",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "W. H. MORDEN PUBLIC SCHOOL",
+	"address": "180 Morden Road",
+	"city": "Oakville",
+	"postalCode": "L6K 2S3",
+	"Latitude": 43.434128,
+	"Longitude": -79.6861672,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 844-9616",
+	"schoolLevel": "elementary"
+}, {
+	"schoolName": "WEST OAK PUBLIC SCHOOL",
+	"address": "2071 Fourth Line",
+	"city": "Oakville",
+	"postalCode": "L6M 3K1",
+	"Latitude": 43.4482794,
+	"Longitude": -79.7354307,
+	"typeOfElemenatary": "JK-8",
+	"phoneNum": "905 469-6119",
+	"schoolLevel": "elementary"
+} ]
