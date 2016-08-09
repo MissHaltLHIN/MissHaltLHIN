@@ -14,7 +14,7 @@
     <script src="leaflet/leaflet.js"></script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     
-    <script src='map.js'></script>
+    <script src='js/map.js'></script>
      
 
 </head>
@@ -51,7 +51,7 @@
         L.control.zoom({position: 'topright'}).addTo(mymap)
 
 
-        var poly = uploadFile("misshalt_nhs.geojson");
+        var poly = uploadFile("data/geojson/misshalt_nhs.geojson");
         console.log(poly);
 
         var polyLayer = L.geoJson(poly,{style: {weight:1, color: "grey", fillOpacity: 0}}).addTo(mymap);
