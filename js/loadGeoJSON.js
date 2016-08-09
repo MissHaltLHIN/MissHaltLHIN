@@ -128,8 +128,8 @@ function addPointTypeLayer(data_url,id){
 }
 //Call the functions that adds layers to the map.
 addLineTypeLayer(nhs_data,'nhs_data');
-//addPointTypeLayer(schools,'schools');
-//addPointTypeLayer(united_way_oakville, 'united_way_oakville');
-//addPointTypeLayer(united_way_bur_ham, 'united_way_bur_ham');
-//addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
-//addPointTypeLayer(label,'#FF0000','labels');
+addPointTypeLayer(schools,'schools');
+addPointTypeLayer(united_way_oakville, 'united_way_oakville');
+addPointTypeLayer(united_way_bur_ham, 'united_way_bur_ham');
+addLineTypeLayer(ceiling_plan,'#FF0000','ceiling_plan');
+addPointTypeLayer(label,'#FF0000','labels');
