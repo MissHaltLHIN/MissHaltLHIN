@@ -28,6 +28,8 @@ The project is separated into 3 parts
 
 Oliver Blunn - ‎Project Lead at [Mississauga Halton Local Health Integration Network](http://www.mississaugahaltonlhin.on.ca/)
 
+Jane Zhang - Project GIS lead
+
 Sonal Ranjit - [GitHub](https://github.com/sonalranjit)
 
 Alex Chen - [GitHub](https://github.com/alexaca79)
@@ -35,3 +37,4 @@ Alex Chen - [GitHub](https://github.com/alexaca79)
 Michelle Lee - [GitHub](https://github.com/mi-lee)
 
 Mackenzie Nichols - [GitHub](https://github.com/mackeynichols)
+
