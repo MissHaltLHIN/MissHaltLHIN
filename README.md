@@ -1,4 +1,4 @@
-# Project Atlas: Mississauga Halton Health Integration Network Map
+# :sparkles: Project Atlas: Mississauga Halton Health Integration Network Map
 
 In partnership with [Civic Tech Toronto](http://civictech.ca/) and the [Mississauga Halton Health Integration Network (LHIN)](http://www.mississaugahaltonlhin.on.ca/), we have produced a map to investigate supply and demand of health care resources.
 
@@ -6,9 +6,9 @@ In partnership with [Civic Tech Toronto](http://civictech.ca/) and the [Mississa
 
 **NOTE**: Work in progress.
 
-The map using Mapbox is [here](https://misshaltlhin.github.io/MissHaltLHIN/).
+:zap: The map using Mapbox is [here](https://misshaltlhin.github.io/MissHaltLHIN/).
 
-The map using Leaflet is [here](https://misshaltlhin.github.io/MissHaltLHIN/leafletMissHaltLHIN.html).
+:zap: The map using Leaflet is [here](https://misshaltlhin.github.io/MissHaltLHIN/leafletMissHaltLHIN.html).
 
 
 ## Contributing
