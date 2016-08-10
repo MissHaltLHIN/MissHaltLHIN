@@ -1,69 +1,74 @@
 .menu-ui {
-    background:#fff;
-    position:absolute;
-    top:10px;right:10px;
-    z-index:1;
-    border-radius:3px;
-    width:120px;
-    border:1px solid rgba(0,0,0,0.4);
+  background: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .menu-ui a {
-    font-size:13px;
-    color:#404040;
-    display:block;
-    margin:0;padding:0;
-    padding:10px;
-    text-decoration:none;
-    border-bottom:1px solid rgba(0,0,0,0.25);
-    text-align:center;
+  font-size: 13px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 .menu-ui a:first-child {
-    border-radius:3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
 }
 .menu-ui a:last-child {
-    border:none;
-    border-radius:0 0 3px 3px;
+  border: none;
+  border-radius: 0 0 3px 3px;
 }
 .menu-ui a:hover {
-    background:#f8f8f8;
-    color:#404040;
+  background: #f8f8f8;
+  color: #404040;
 }
 .menu-ui a.active {
-    background:#3887BE;
-    color:#FFF;
+  background: #3887BE;
+  color: #FFF;
 }
 .menu-ui a.active:hover {
-    background:#3074a4;
+  background: #3074a4;
 }
 .body {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
-#map{
-    position:absolute;
-    top:0;
-    bottom:0;
-    width:100%;
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 .navbar-toggle {
-    float: right;
-    margin-left: 15px;
+  float: right;
+  margin-left: 15px;
 }
-
 .navmenu {
-    z-index: 1;
+  z-index: 1;
 }
 #sidebar {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    bottom: 15px;
-    width: 250px;
-    overflow: auto;
-    background: rgba(255, 255, 255, 0.8);
-    font-family: "Arial";
-    padding-left: 10px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  width: 250px;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Arial";
+  padding-left: 10px;
 }
 
-
-
+.mapboxgl-popup-content {
+  border-top-left-radius: 0;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: scroll;
+}
