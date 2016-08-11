@@ -67,7 +67,7 @@ function addLineTypeLayer( data_url, id ) {
     var rowTemplates = '';
 
     var returnRowTemplate = function( label, value ) {
-      return '<tr align="left"><th>' + label + '</th><td>' + value + '</td></tr>';
+      return '<tr align="left"><th>' + label + '</th><td align="right">' + value + '</td></tr>';
     };
 
     for ( var prop in censusTract.properties ) {
@@ -113,6 +113,7 @@ function addPointTypeLayer( data_url, id ) {
       }
     } );
   } );
+  /*
   // When a click event occurs near a polygon, open a popup at the location of
   // the feature, with description HTML from its properties.
   map.on( 'click', function( e ) {
@@ -129,7 +130,7 @@ function addPointTypeLayer( data_url, id ) {
       .setLngLat( map.unproject( e.point ) )
       .setHTML( '<b>Name: </b>' + censusTract.properties.name )
       .addTo( map );
-  } );
+  } );*/
 
   // Use the same approach as above to indicate that the symbols are clickable
   // by changing the cursor style to 'pointer'.
