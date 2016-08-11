@@ -67,7 +67,7 @@ function addLineTypeLayer( data_url, id ) {
     var rowTemplates = '';
 
     var returnRowTemplate = function( label, value ) {
-      return '<tr><th>' + label + '</th><td>' + value + '</td></tr>';
+      return '<tr align="left"><th>' + label + '</th><td>' + value + '</td></tr>';
     };
 
     for ( var prop in censusTract.properties ) {
@@ -86,14 +86,14 @@ function addLineTypeLayer( data_url, id ) {
     var features = map.queryRenderedFeatures( e.point, {
       layers: [ id ]
     } );
-
+  /*
     if ( features.length ) {
       //Show name and value in sidebar
       document.getElementById( 'tooltip-name' ).innerHTML = "Count: " + features[ 0 ].properties[ "healthdat_all_Age at immigration 25 to 44 years" ];
     } else {
       document.getElementById( 'tooltip-name' ).innerHTML = "";
       document.getElementById( 'tooltip' ).innerHTML = "";
-    }
+    }*/
   } );
 }
 
