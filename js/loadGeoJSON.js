@@ -76,7 +76,7 @@ function addLineTypeLayer( data_url, id ) {
 
     var popup = new mapboxgl.Popup()
       .setLngLat( map.unproject( e.point ) )
-      .setHTML( '<table><tbody>' + rowTemplates + '</tbody></table>' )
+      .setHTML( '<table border="1"><tbody>' + rowTemplates + '</tbody></table>' )
       .addTo( map );
   } );
 
