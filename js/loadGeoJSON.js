@@ -153,3 +153,4 @@ map.fitBounds([
     [-80.1604, 43.3717],
     [-79.513, 43.7345]
 ]);
+map.addControl(new mapboxgl.Geocoder());
