@@ -146,3 +146,10 @@ addLineTypeLayer( nhs_data, 'nhs_data' );
 addPointTypeLayer( schools, 'schools' );
 addPointTypeLayer( united_way_oakville, 'united_way_oakville' );
 addPointTypeLayer( united_way_bur_ham, 'united_way_bur_ham' );
+
+//fit the map to bounds of the LHIN
+//xMin,yMin -80.1604,43.3717 : xMax,yMax -79.513,43.7345
+map.fitBounds([
+    [-80.1604, 43.3717],
+    [-79.513, 43.7345]
+]);
