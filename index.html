@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset='utf-8' />
     <title>Mississauga Halton LHIN</title>
-    <!--<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />-->
     <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- CSS Depenencies -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+    <!-- /CSS Dependencies -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div id='map'></div>
+    <div id='choropleth-legend' class='legend'>
+      <h4>Choropleth Counts</h4>
+      <div><span style='background-color: #084594'></span> Greater than 600 </div>
+      <div><span style='background-color: #2171b5'></span> 500</div>
+      <div><span style='background-color: #4292c6'></span> 400</div>
+      <div><span style='background-color: #6baed6'></span> 300</div>
+      <div><span style='background-color: #9ecae1'></span> 200</div>
+      <div><span style='background-color: #c6dbef'></span> 100</div>
+      <div><span style='background-color: #deebf7'></span> 0</div>
+    </div>
+    <div id="sidebar">
+      <ul class="collapsible" data-collapsible="expandable">
+      </ul>
+    </div>
+    <!-- Mapbox -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/geojson-extent/v0.0.1/geojson-extent.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
-<div id='map'></div>
-<div id='choropleth-legend' class='legend'>
-    <h4>Choropleth Counts</h4>
-    <div><span style='background-color: #084594'></span> Greater than 600 </div>
-    <div><span style='background-color: #2171b5'></span> 500</div>
-    <div><span style='background-color: #4292c6'></span> 400</div>
-    <div><span style='background-color: #6baed6'></span> 300</div>
-    <div><span style='background-color: #9ecae1'></span> 200</div>
-    <div><span style='background-color: #c6dbef'></span> 100</div>
-    <div><span style='background-color: #deebf7'></span> 0</div>
-</div>
-<!--div id='sidebar'>
-    <h1>Mississauga Halton Region Choropleths</h1>
-    <h2>Age at Immigration 25 to 44 years</h2>
-    <div id="tooltip-name"></div>
-    <div id='tooltip'></div>
-</div-->
-<script src='js/loadGeoJSON.js'></script>
-
-</body>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+    <!--  Materialize -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <!-- Lodash -->
+    <script src="https://cdn.jsdelivr.net/lodash/4.15.0/lodash.min.js"></script>
+    <!-- Our files -->
+    <script src="js/constants.js"></script>
+    <script src="js/layerFiltering.js"></script>
+    <script src="js/popup.js"></script>
+    <script src='js/loadGeoJSON.js'></script>
+  </body>
 </html>
-
