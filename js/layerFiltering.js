@@ -42,6 +42,7 @@ var renderSidebar = function() {
     } )[ 0 ];
 
     if ( !category ) {
+      console.error( "There is no parent category for this variable " + variableName );
       return;
     }
 

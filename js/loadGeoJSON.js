@@ -28,7 +28,7 @@ var addLineTypeLayer = function( data_url, id ) {
     } );
   } );
 
-  map.on( 'click', renderPopup( id ) );
+  map.on( 'click', renderPopup( id, 'lineType' ) );
 };
 
 // Adds Point type layer to the map, takes in the URL for the dataset, color and an ID string to name the layer
@@ -48,7 +48,7 @@ var addPointTypeLayer = function( data_url, id ) {
     } );
   } );
 
-  map.on( 'click', renderPopup( id ) );
+  map.on( 'click', renderPopup( id, 'pointType' ) );
 };
 
 $( document ).ready( function() {

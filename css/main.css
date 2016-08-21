@@ -21,11 +21,12 @@
 }
 .mapboxgl-popup-content {
   border-top-left-radius: 0;
-  max-width: 250px;
+  width: 250px;
   max-height: 250px;
   line-height: 100%;
   overflow: scroll;
 }
+
 .legend {
   background-color: #fff;
   border-radius: 3px;
