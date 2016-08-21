@@ -28,7 +28,9 @@ var renderSidebar = function() {
 
   // Adds category as header of the collapsable menu
   NHS_CATEGORY_VARS.map( function( categoryName ) {
+    // Creates a Category header on the sidebar
     var $liHeader = $( '<li><div class="collapsible-header"><i class="material-icons">layers</i>' + categoryName + '</div><div class="collapsible-body"><p></p></div></li>' );
+
     $liHeader.addClass( _.camelCase( categoryName.replace( 'healthdat_all_', '' ) ) );
     $sidebar.append( $liHeader );
     return;
@@ -37,6 +39,8 @@ var renderSidebar = function() {
   // Adds the sub-variables per each category on the sidebar
   NHS_VARIABLES.map( function( variableName ) {
     variableName = variableName.replace( 'healthdat_all_', '' );
+
+    // Searches if it belongs to a parent category
     var category = NHS_CATEGORY_VARS.filter( function( name ) {
       return variableName.indexOf( name ) === 0;
     } )[ 0 ];
@@ -46,11 +50,16 @@ var renderSidebar = function() {
       return;
     }
 
-    $link = $( '<a href="#" class="active">' + variableName + '</a></br>' );
+    var cleanVariableName = variableName.replace( category, '' ).trim();
+    $link = $( '<a href="#" class="active">' + cleanVariableName + '</a></br>' );
+
+    // Change the layer property on click
     $link.on( 'click', function( e ) {
       e.preventDefault();
       changePropertyObject( variableName );
     } );
+
+    // Appends the variable filter under Category filter within the sidebar
     $sidebar.find( '.' + _.camelCase( category ) + ' .collapsible-body p' ).append( $link );
     return;
   } );

@@ -27,7 +27,6 @@ var addLineTypeLayer = function( data_url, id ) {
       }
     } );
   } );
-
   map.on( 'click', renderPopup( id, 'lineType' ) );
 };
 
@@ -56,10 +55,10 @@ $( document ).ready( function() {
   addPointTypeLayer( window.URL_DATA.schools, 'schools' );
   addPointTypeLayer( window.URL_DATA.united_way_oakville, 'united_way_oakville' );
   addPointTypeLayer( window.URL_DATA.united_way_bur_ham, 'united_way_bur_ham' );
-
 } );
-//fit the map to bounds of the LHIN
-//xMin,yMin -80.1604,43.3717 : xMax,yMax -79.513,43.7345
+
+// fit the map to bounds of the LHIN
+// xMin,yMin -80.1604,43.3717 : xMax,yMax -79.513,43.7345
 map.fitBounds( [
   [ -80.1604, 43.3717 ],
   [ -79.513, 43.7345 ]
