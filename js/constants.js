@@ -6,9 +6,8 @@ var URL_DATA = {
 };
 
 var CT_SPECIFIC_VARS = [ "CTUID", "CTNAME", "CMAUID", "CMANAME", "CMATYPE", "CMAPUID", "PRUID", "PRNAME"
-  // "field_1" What is "Field_1"??? It's excluded  from CT_SPECIFIC_VARS and NHS_CATEGORY_VARIBLES.
+  // "field_1" What is "Field_1"? It's been excluded from CT_SPECIFIC_VARS and NHS_CATEGORY_VARIBLES.
 ];
-
 
 var NHS_CATEGORY_VARIABLES = [
   "Aboriginal population", "Age at immigration", "Citizenship", "Class of worker", "Education", "Ethnic origin population", "Full-time or part-time weeks worked", "Generation status", "Household characteristics", "Immigrant status and period of immigration", "Immigrant status and selected places of birth", "Income of households in 2010", "Income of individuals in 2010", "Industry", "Labour force status", "Language used most often at work", "Median commuting duration", "Mobility", "Mode of transportation", "Non-official languages spoken", "Occupation", "Occupied private dwelling characteristics", "Place of work status", "Recent immigrants by selected place of birth", "Religion", "Shelter costs", "Time leaving for work", "Visible minority population", "Work activity"
