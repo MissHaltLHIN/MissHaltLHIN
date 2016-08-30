@@ -1,5 +1,5 @@
 var URL_DATA = {
-  'nhs_data': "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326.geojson",
+  'nhs_data': "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326_percent.geojson",
   'schools': "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_schools_4326.geojson",
   'united_way_oakville': "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_oakville_united_way.geojson",
   'united_way_bur_ham': "https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_burlington_hamilton_united_way.geojson"

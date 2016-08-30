@@ -1,6 +1,6 @@
 // Styling Globals
-var COLORS = [ '#deebf7', '#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#084594' ];
-var BREAKS = [ 0, 100, 200, 300, 400, 500, 600 ];
+var COLORS = [ "#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#253494", "#081d58" ];
+var BREAKS = [ 10, 20, 30, 40, 50, 60, 70, 80, 90 ];
 
 // This changes the property value of the map - used to filter for a specific property on the page.
 var changePropertyObject = function( property ) {
@@ -13,7 +13,9 @@ var changePropertyObject = function( property ) {
       [ BREAKS[ 3 ], COLORS[ 3 ] ],
       [ BREAKS[ 4 ], COLORS[ 4 ] ],
       [ BREAKS[ 5 ], COLORS[ 5 ] ],
-      [ BREAKS[ 6 ], COLORS[ 6 ] ]
+      [ BREAKS[ 6 ], COLORS[ 6 ] ],
+      [ BREAKS[ 7 ], COLORS[ 7 ] ],
+      [ BREAKS[ 8 ], COLORS[ 8 ] ]
     ]
   };
   map.setPaintProperty( 'nhs_data', 'fill-color', propertyObject );
