@@ -16,11 +16,11 @@ var renderPopup = function( id, dataType ) {
 };
 
 var filterPropertiesByDataType = function( properties, dataType ) {
-  if ( dataType === 'lineType' ) {
-    return _.pick( properties, CT_SPECIFIC_VARS );
-  } else {
+  // if ( dataType === 'lineType' ) {
+    // return _.pick( properties, CT_SPECIFIC_VARS );
+  // } else {
     return properties;
-  }
+  // }
 };
 
 // Converts census tract properties into a simple table in HTML.

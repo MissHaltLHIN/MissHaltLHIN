@@ -1,6 +1,6 @@
 // Styling Globals
 var COLORS = [ "#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#253494", "#081d58" ];
-var BREAKS = [ 10, 20, 30, 40, 50, 60, 70, 80, 90 ];
+var BREAKS = [ 0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90 ];
 
 // This changes the property value of the map - used to filter for a specific property on the page.
 var changePropertyObject = function( property ) {
