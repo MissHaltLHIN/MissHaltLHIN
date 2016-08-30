@@ -47,3 +47,6 @@
   margin-right: 2px;
   width: 10px;
 }
+.collapsible-body > p > a:active, .collapsible-body > p > a:focus, .collapsible-body > p > a:hover {
+  color: red;
+}

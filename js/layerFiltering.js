@@ -53,7 +53,7 @@ var renderSidebar = function() {
     }
 
     var cleanVariableName = variableName.replace( category, '' ).trim();
-    $link = $( '<a href="#" class="active">' + cleanVariableName + '</a></br>' );
+    $link = $( '<a href="#">' + cleanVariableName + '</a></br>' );
 
     // Change the layer property on click
     $link.on( 'click', function( e ) {
