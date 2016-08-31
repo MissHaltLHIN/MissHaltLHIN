@@ -1,0 +1,23 @@
+<head>
+	<!-- Plotly.js -->
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="myDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+	<script src="https://cdn.jsdelivr.net/lodash/4.15.0/lodash.min.js"></script>
+	<script>
+	$.getJSON( 'https://raw.githubusercontent.com/MissHaltLHIN/MissHaltLHIN/master/data/geojson/misshalt_nhs_4326_percent.geojson',
+		function( data ) {
+			var x = Object.keys( data.features[0].properties );
+			var y = _.values( data.features[0].properties );
+			var newData = [ {
+				x: x,
+				y: y,
+				type: 'bar'
+			} ];
+			Plotly.newPlot( 'myDiv', newData );
+		} );
+
+	</script>
+</body>
